@@ -1,4 +1,4 @@
-name: "Add PR Review Comment"
+name: "PR Review Comment"
 description: "Add review comments to a pull request"
 inputs:
   comments:
