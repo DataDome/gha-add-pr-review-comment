@@ -11,7 +11,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: nbaztec/add-pr-review-comment@v1
+      - uses: sfontaneldatadome/add-pr-review-comment@v1
         with:
           message: |
             [{"path":"lib/main.js","line":10,"text":"something was deleted","side":"RIGHT"},{"path":"lib/main.js","line":8,"text":"something was added","side":"LEFT"}]
